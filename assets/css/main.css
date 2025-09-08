@@ -736,24 +736,24 @@ section,
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 2rem;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
   margin: 0;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: var(--contrast-color);
   position: relative;
 }
 
 .section-title h2::after {
   content: "";
-  width: 120px;
+  width: 160px;
   height: 1px;
   display: inline-block;
   background: var(--accent-color);
-  margin: 4px 10px;
+  margin: 6px 10px;
 }
 
 .section-title div {
@@ -815,10 +815,10 @@ section,
 }
 
 .hero .agency-name h5 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 1px;
-  color: var(--contrast-color);
+  color: var(--accent-color);
   margin: 0;
 }
 
@@ -827,7 +827,7 @@ section,
 }
 
 .hero .main-heading h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -1px;
@@ -1030,8 +1030,8 @@ section,
 
 .about .about-image .experience-badge {
   position: absolute;
-  bottom: 30px;
-  right: -30px;
+  bottom: 20px;
+  right: -10px;
   background: var(--accent-color);
   color: var(--contrast-color);
   padding: 1.5rem;
